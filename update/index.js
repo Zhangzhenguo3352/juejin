@@ -10,7 +10,7 @@ let write = require('./write');
 
     let allArticles =   {};
     // 在首页标签列表中拿到 每一个  标签列表数据 （这里我们 只插入  第一个数据）
-    for(let i = 0; i < 8; i++) {
+    for(let i = 0; i < 20; i++) {
     // for(tag of tags){
         //tag.href 拿到去每一个去列表的链接，得到数据
         // 要考虑到去除 重复数据，保证重复的数据 只保留一个
